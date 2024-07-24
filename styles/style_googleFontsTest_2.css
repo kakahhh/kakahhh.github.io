@@ -24,10 +24,10 @@ img {
   margin: 0 auto;
 }
 
-img[src = "../images/test/11.jpg"] {
+img[src = "images/test/11.jpg"] {
   max-width: 100%;
 }
 
-img[src = "../images/test/22.jpg"] {
+img[src = "images/test/22.jpg"] {
   max-width: 50%;
 }
