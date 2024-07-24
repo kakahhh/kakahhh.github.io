@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My test page</title>
+
+    <!--链接google Fonts到css-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet" 
+    />
+
+    <!--链接到css_2-->
+    <link href="../styles/style_googleFontsTest_2.css" rel="stylesheet" />
+    
+    <!--链接到css_1-->
+    <link href="../styles/style_googleFontsTest.css" rel="stylesheet" />
+  </head>
+
+
+
+  <body>
+    <h1>主标题</h1>
+
+    <!--设置id-->
+    <a id="tips">有用的提示部分hhhhh</a>
+    <p id="my-id"></p>
+
+    <p>这是一个段落</p>
+
+    <!--链接到picture-->
+    <img src="../images/test/11.jpg" alt="大大大雪山" />
+    <hr>
+    <img src="../images/test/22.jpg" alt="草" />
+    <hr>
+    
+
+    <p>At Mozilla, we're a global community of</p>
+
+    <!--链接到列表-->
+    <ul>
+      <li>technologists</li>
+      <li>thinkers</li>
+      <li>builders</li>
+    </ul>
+
+    <p>working together…</p>
+    <hr>
+    
+    <!--链接到链接-->
+    <p>
+      选择器有许多不同的类型。上面只介绍了元素选择器，用来选择html文档中给定的元素。
+      但是选择操作可以更加具体。下面是一些常用的选择器类型：
+      <a href="https://www.mozilla.org/zh-CN/about/manifesto/">Mozilla Manifesto</a>
+    </p>
+    <hr>
+
+    <!--转到设定id-->
+    <a href="#tips">访问有用的提示部分</a>
+    <br>
+    <a href="#my-id">访问my-id</a>
+
+    <hr>
+    <!--按钮-->
+    <button>切换用户</button>
+    <!--script放在最后执行避免DOM树加载出错-->
+    <script src="../scripts/main.js" defer></script>
+    
+  </body>
+</html>
