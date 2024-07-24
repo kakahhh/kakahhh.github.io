@@ -9,7 +9,7 @@ li {
   color: rgba(202, 26, 26, 0.863);
 }
 
-img[src = "../images/test/11.jpg"]{
+img[src = "images/test/11.jpg"]{
   width: 500px;
   border: 10px solid rgb(168, 52, 72);
 }
